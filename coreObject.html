@@ -1,0 +1,72 @@
+<script>
+    //lesson 37
+    //array
+    //array cara 1
+
+    /*
+    var courses = new Array('menjahit', 'berenang', 'memasak')
+    corses[1] = 'menyanyi'
+    document.write(corses[1])
+    */
+
+   //lesson 38 
+   //other ways to create arrays
+   //array cara 2
+   
+   /*
+   var courses = new Array()
+   courses[0] = 'menjahit'
+   courses[1] = 'berenang'
+   courses[2] = 'memasak'
+   courses[3] = 'mengecas'
+   document.write(courses[0])
+
+//array cara 3
+  var courses = ['menjahit','berenang','kamu nanya?']
+  */
+
+ //lesson 39
+ //array property & method
+ //array menggunakan length
+
+ //length berguna untuk menghitung jumlah data
+
+ /*
+ var courses = ['menjahit',' berenang','memasak']
+ var menu = ['mie ayam','bakso','nasi gireng']
+ var concatArray = courses.concat(menu)
+ document.write(concatArray)
+ */
+
+//lesson 40
+//associative arrays
+/*
+var person = {
+name : 'Fayyat',
+age : 17,
+}
+
+var person2 = []
+var h = person['name'] = 'Fayyat'
+var i = person['age'] = 17
+document.write(h)
+document.write(i)
+document.write(person['name'])
+document.write(person['age'])
+*/
+
+//lesson 41
+// the math object
+//document.write(Math.PI)
+//document.write(Math.sqrt(81))
+//var random = Math.floor(Math.random()*10)
+//document.write(random+'<br/>')
+function main() {
+    var year = 2005
+    document.write(calcCent(year));
+    }
+function calcCent(y){
+    return Math.ceil(y/100)
+}
+main();
+</script>

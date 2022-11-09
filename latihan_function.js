@@ -18,7 +18,7 @@ function bola(){
         return c;
     }
     }
-    console.log(score(2,2))
+    console.log(score(3,10))
     
     //function rata2
     var a = 3;
