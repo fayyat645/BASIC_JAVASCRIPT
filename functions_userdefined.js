@@ -10,7 +10,7 @@ function myfunction(){
 myfunction();
 //calling function
 function myfunction(){
-    alert("Alert box!")
+    alert("Alert box!");
 }
 myfunction();
 //"Alert box!"

@@ -61,7 +61,7 @@ document.write(person['age'])
 //document.write(Math.sqrt(81))
 //var random = Math.floor(Math.random()*10)
 //document.write(random+'<br/>')
-function main() {
+/*function main() {
     var year = 2005
     document.write(calcCent(year));
     }
@@ -69,4 +69,35 @@ function calcCent(y){
     return Math.ceil(y/100)
 }
 main();
+*/
+
+/*var n = prompt('masukan bilangan : ' , '')
+var answer = Math.sqrt();
+alert('nilai dari akar kuadrat bilangan' +n+ 'adalah' +answer)
+*/
+/*
+var r = prompt ('masukan nilai jari jari : ','')
+var t = prompt ('masukan nilai tinggi : ','')
+var answer = (Math.PI*(Math.pow(r,2)*t))
+alert('jari jari' +r+ 'tingggi' +t+ 'volume tabung' + answer)
+*/
+
+//lesson 42
+/*
+function myAlert(){
+    alert('Hello World!')
+}
+ setInterval(myAlert,3000)
+ */
+
+//lesson 43
+function myTime(){
+var d = new Date()
+var hours = d.getHours()
+var minutes = d.getMiuntes()
+var seconds = d.getSeconds()
+document.body.innerHTML = hours+':'+minutes+':'+seconds
+}
+setInterval(myTime,1000)
+myTime()
 </script>
